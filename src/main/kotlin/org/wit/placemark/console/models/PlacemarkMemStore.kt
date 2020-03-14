@@ -37,6 +37,7 @@ class PlacemarkMemStore : PlacemarkStore {
     }
 
     internal fun logAll() {
+        println("Testing")
         placemarks.forEach { logger.info("${it}") }
     }
 }

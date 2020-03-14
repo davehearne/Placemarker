@@ -19,7 +19,7 @@ fun main(args: Array<String>) {
         when(input) {
             1 -> addPlacemark()
             2 -> updatePlacemark()
-            3 -> placemarkView.listPlacemarks(placemarks)
+            3 -> listPlacemarks()
             4 -> searchPlacemark()
             -99 -> dummyData()
             -1 -> println("Exiting App")
@@ -46,4 +46,8 @@ fun searchPlacemark() {
 
 fun dummyData() {
     controller.dummyData()
+}
+
+fun listPlacemarks() {
+    controller.list()
 }
