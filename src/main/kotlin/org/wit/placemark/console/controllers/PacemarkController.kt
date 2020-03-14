@@ -34,7 +34,7 @@ class PlacemarkController {
     fun update() {
 
         list()
-        println("Test")
+
         var searchId = placemarkView.getId()
         val aPlacemark = search(searchId)
 
