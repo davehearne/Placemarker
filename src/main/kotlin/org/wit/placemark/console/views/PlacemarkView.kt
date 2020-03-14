@@ -27,7 +27,7 @@ class PlacemarkView {
 
     fun listPlacemarks(placemarks : PlacemarkMemStore) {
         println("List All Placemarks")
-        println("Test")
+
         placemarks.logAll()
         println()
     }
